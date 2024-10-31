@@ -1,0 +1,46 @@
+body {background-color: rgb(69, 69, 69);
+    font: 13pt Arial;}
+
+main {background-color: white;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.542);}
+
+h1 {color: darkgoldenrod;}
+
+h2 {color: rgb(125, 92, 8);}
+
+aside {display: block;
+    font-size: 10pt;
+    text-align: justify;
+    background-color: rgb(222, 222, 222);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+   }
+
+aside img {width: 60px;
+    display: block;
+    float: left;
+    margin-right: 10px;}
+
+a, a:visited {color: rgb(34, 34, 34);
+    font-weight: bolder;}
+
+a:hover {color: darkgoldenrod;
+    text-decoration: none;}
+
+body::-webkit-scrollbar {
+width: 18px;	   /*largura total da barra de rolagem */
+}
+body::-webkit-scrollbar-track {
+background:  red;	/*cor da área de deslizamento*/
+}
+body::-webkit-scrollbar-thumb {
+ background-color: blue; /*cor do elemento de rolagem*/
+ border-radius: 20px;	/*borda do corpo da barra de rolagem */
+ border: 6px solid orange; /* cria uma separação entre a barra de rolagem e o slider*/
+}
+
